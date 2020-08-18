@@ -1,0 +1,49 @@
+.sidebar {
+  padding: 0px 10px;
+  max-width: 275px;
+}
+.header {
+  color: var(--twitter-color);
+  padding: 10px;
+  width: fit-content;
+  border-radius: 50%;
+}
+.header:hover {
+  background-color: var(--twitter-backgroud-color);
+  color: var(--twitter-color);
+  
+}
+
+.tweet-button>a {
+  color: white;
+  line-height: 1;
+}
+.tweet-button>a>span>div {
+  padding: 15px 0px;
+}
+.add-circle-icon {
+  display: none;
+}
+
+@media only screen and (max-width: 1260px) {
+  .sidebar-header {
+    display: flex;
+    justify-content: flex-end;
+  }
+  .tweet-button>a>span {
+    display: none;
+  }
+  .tweet-button {
+    background-color: white;
+    padding-right: 5px;
+  }
+  .add-circle-icon {
+    color: var(--twitter-color);
+    display: flex;
+    justify-content: flex-end;
+    transition-duration: 0.2s;
+  }
+  .add-circle-icon:hover {
+    color: rgb(26, 145, 218);
+  }
+}

@@ -1,0 +1,43 @@
+.main-message-form {
+  width: 100%;
+}
+.main-message-text {
+  width: 100%;
+  border: none;
+  padding: 10px;
+}
+
+.additional-message {
+  color: var(--twitter-color);
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.form-bottom {
+  padding: 10px;
+  width: 100%;
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-between;
+}
+.form-button {
+  width: fit-content;
+  background-color: var(--twitter-color);
+  border-radius: 30% / 50%;
+}
+.form-button span {
+  color: white;
+}
+.icon {
+  width: 30px;
+  height: 30px;
+  cursor: pointer;
+  border-radius: 50%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.icon:hover {
+  background-color: var(--twitter-backgroud-color);
+  transition:0.2s ease-out;
+}

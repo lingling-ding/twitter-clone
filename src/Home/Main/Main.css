@@ -1,0 +1,50 @@
+.main {
+  display: flex;
+  flex-direction: column;
+}
+
+.main-header {
+  position: -webkit-sticky;/* Safari */
+  position: sticky;
+  top: 0;
+  padding: 10px 0px 10px 10px;
+  height: fit-content;
+  width: 100%;
+  display: flex;
+  align-items: stretch;
+  border: 1px solid rgb(230, 236, 240);
+  cursor: pointer;
+  background-color: white;
+  z-index: 3;
+}
+.header-name {
+  flex-grow: 9;
+  display: flex;
+  align-items: center;
+}
+.header-name>span {
+  font-size: 20px;
+}
+.tip {
+  display: flex;
+  flex-grow: 1;
+  justify-content: center;
+  align-items: center;
+  color: var(--twitter-color);
+}
+.tip:hover {
+  color: rgb(26, 145, 218);
+}
+.main-message {
+  display: flex;
+  border-bottom: 10px solid rgb(230, 236, 240);
+  padding: 5px;
+}
+.main-message-avatar {
+  border: 1px solid rgba(0, 0, 0, 0.04);
+  border-radius: 50%;
+  height: fit-content;
+}
+.main-message-avatar:hover {
+  background-color: rgba(26, 26, 26, 0.15);
+}

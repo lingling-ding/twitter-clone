@@ -1,0 +1,19 @@
+.home {
+  position: relative;
+}
+.home-page {
+  padding-top: 5px;
+  display: flex;
+  align-items: stretch;
+}
+
+
+.sidebar {
+  flex-grow: 1;
+}
+
+.main {
+  flex-grow: 7;
+  border: 1px solid #000;
+  height: 100vh;
+}
